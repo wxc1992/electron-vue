@@ -43,7 +43,7 @@ axios.interceptors.request.use((config) => {
   console.log('IPAddress',IPAddress)
   let configUrl = config.url.split('?')[0]
   console.log('configUrl,configUrl',configUrl)
-  const host = process.env.NODE_ENV === 'development'?'/':'https://hmly.tebon.com.cn:10999'
+  const host = process.env.NODE_ENV === 'development'?'/':'https://www.test.com'
   config.baseURL = host
   const { Authorization } = config.headers;
   if (!Authorization) {
