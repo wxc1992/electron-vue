@@ -1,0 +1,726 @@
+.fl{
+  float: left;
+  margin-right:15px;
+  font-size: 13px;
+}
+
+*{
+  padding:0;
+  margin:0;
+  border:none;
+  font-family:"微软雅黑";
+}
+html,body{height:100%; font-family:"微软雅黑"!important;}
+body{
+  background: #fff;
+}
+#ias{
+  /* padding-bottom: 100px; */
+}
+.el-dialog__body{
+  padding: 30px 15px;
+}
+.main .el-main{
+  padding:0!important;
+}
+.fr{
+  float: right;
+}
+.clearfix:after{
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+  }
+#publickoffund .clearfix:after{
+  content: "020";
+  display: inherit;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+  }
+
+.clearfix {
+  /* 触发 hasLayout */
+  zoom: 1;
+  }
+
+  .el-table {
+    font-size: 13px;
+  }
+  .el-table th{
+
+  }
+  #entryHome .x-menu li{
+    margin-left: auto;
+    text-align: center;
+    flex:1 0 auto;
+  }
+  #entryHome .x-menu li a{
+    font-size: 18px;
+  }
+ #entryHome .x-menu{
+     display:flex;
+     max-width: 1100px;
+     justify-content: space-around;
+ }
+
+  #datamanage .el-collapse-item__header{
+    height: 30px;
+    line-height: 30px;
+    padding-bottom: 8px;
+  }
+  #datamanage .el-collapse-item__arrow{
+    float: none;
+  }
+  #datamanage #rightDatacon .el-collapse-item__arrow{
+    float: left;
+    margin-right:0;
+  }
+  #datamanage .el-collapse-item__content{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    background: #eee;
+  }
+  #datamanage .error .el-collapse-item__content{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    background: #f56c6c;
+    color: #fff;
+  }
+  #datamanage .el-row{
+    cursor: pointer;
+  }
+  .el-table th{
+    background-color: #abc9f6!important;
+    padding: 0;
+    font-size:12px;
+    color: #666;
+  }
+
+ #tradrecord .el-table th,#flow .el-table th{
+    background-color: #abc9f6!important;
+    padding: 0;
+    font-size:12px;
+    color: #666;
+  }
+  #flow .el-table .cell{
+    white-space: nowrap;
+  }
+  #flow .el-table th{
+
+  }
+  #flow .el-dialog__body{
+    font-size: 12px;
+  }
+  #sys .el-table th , #group .el-table th{
+    text-align: center;
+  }
+
+  #filetable th:first-child,#filetable2 th:first-child{
+    text-align: left;
+    padding-left:20px;
+  }
+  #filetable td:first-child,#filetable2 td:first-child{
+    text-align: left;
+    padding-left:20px;
+  }
+  #filetable2 th:nth-child(2){
+    text-align: left;
+    padding-left:20px;
+  }
+  #filetable2 td:nth-child(2){
+    text-align: left;
+    padding-left:20px;
+  }
+
+  #flow .el-table th:first-child{
+    text-align:left;
+    padding-left:5px;
+    width: 200px;
+  }
+  #flow .el-table td:first-child{
+    text-align:left;
+    padding-left:5px;
+
+  }
+
+  #flow .el-radio-button__inner{
+    font-size: 12px;
+    padding: 7px 6px;
+  }
+  .el-input__inner{
+    height: 34px!important;
+    line-height: 34px!important;
+    font-size: 12px!important;
+  }
+  #datamanage .el-input__inner{
+    height: 34px!important;
+    line-height: 34px!important;
+    font-size: 12px!important;
+  }
+  #detailData .el-input__inner{
+    height: 30px!important;
+    line-height: 30px!important;
+    font-size: 12px!important;
+  }
+  #detailData .el-input__icon{
+    height: 30px!important;
+    line-height: 30px!important;
+  }
+  #institu .el-input__inner{
+    height: 35px!important;
+    line-height: 35px!important;
+    font-size: 12px!important;
+  }
+  #selectC .el-notification__title{
+    font-size: 14px;
+  }
+  #selectC .el-table th{
+    text-align: center;
+    background: #DAEBFB;
+    padding: 6px 0;
+    color: #666;
+  }
+  #selectC .el-notification__content{
+    font-size: 12px;
+  }
+  #countEdit .el-table th{
+    background:#e4e4e4;
+    text-align: center;
+  }
+  #countEdit .el-table td, #group .el-table td, #selectC .el-table td{
+    text-align: center;
+    height: 30px;
+    padding: 6px 0;
+    line-height: 30px;
+  }
+  #countEdit .el-button--mini, .el-button--mini.is-round{
+    padding: 4px 7px;
+  }
+  #countEdit .el-dialog__header{
+    padding: 15px 16px 2px;
+  }
+  .el-table thead{
+    color: #666;
+  }
+  .el-table td,
+  .el-table th {
+    padding: 0;
+
+  }
+  .el-header{
+    height: 55px;
+  }
+ #sys  .el-table td{
+    text-align: center;
+  }
+  #ias .el-table th{
+    height: 30px;
+    line-height: 30px;
+  }
+  #sys .el-table th{
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+  }
+  .el-tabs__item{
+    height: 30px;
+    line-height: 30px;
+  }
+  #sensity .el-tabs__item{
+    height: 40px;
+    line-height: 40px;
+  }
+  .el-radio-button__inner{
+    padding: 7px 10px;
+  }
+  #flow .el-range-editor.el-input__inner{
+    width: 244px;
+    font-size: 12px;
+  }
+  #flow .el-select{
+    width: 120px;
+  }
+  #group  .el-input__icon,#flow .el-input__icon {
+    line-height: 32px;
+  }
+  .el-input__suffix .el-input__icon{
+    line-height: 32px;
+  }
+  #group  .el-input__icon{
+    line-height: 32px;
+  }
+  #main .el-input__icon{
+    line-height: 30px;
+  }
+  #chicang .el-input__icon{
+    line-height: 30px;
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: '微软雅黑';
+  }
+  html,body{
+    height: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+  body{
+    background: #fff;
+  }
+  #app{
+    width: 100%;
+    height: 100%;
+  }
+  .el-table td{
+    padding: 0!important;
+    font-size: 12px;
+  }
+  #selectC  #imgdialog .el-dialog{
+    background: #f00;
+  }
+ .el-table th{
+  padding: 6px 0!important;
+  }
+  /*清除浮动代码*/
+   .clearfloat:after{display:block;clear:both;content:"";visibility:hidden;height:0}
+   .clearfloat{zoom:1}
+
+   #selectC .el-dialog__header{
+    padding:10px 20px 10px;
+  }
+  #selectC .el-dialog__body{
+    padding:10px;
+  }
+  #elDialog  .el-form-item{
+    float: left;
+    width: 50%;
+  }
+  #elDialog  .el-form-item ,#elDialog2 .el-form-item{
+      float: left;
+      width: 50%;
+  }
+  #elDialog2 .el-form-item .el-input{
+    width:250px;
+  }
+  #elDialog2 .el-form-item:last-child{
+    width: 100%;
+  }
+  #elDialog .el-form-item__label{
+    width: 120px;
+    font-size: 13px!important;
+  }
+  #elDialog .el-form-item__content .el-input{
+    width: 90%;
+  }
+  .imgcover .el-dialog{
+    background: transparent;
+  }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+input[type="number"]{
+    -moz-appearance: textfield;
+}
+#filetable .el-button [class*=el-icon-]+span{
+  margin-left: 0;
+}
+.usertable .el-button{
+  padding: 8px 20px;
+}
+#sys .el-breadcrumb{
+  background:#eee;
+  padding: 10px;
+}
+.logo span{
+  font-size: 18px;
+}
+#maket .el-date-editor.el-input, .el-date-editor.el-input__inner{
+  width: 134px;
+}
+.marketSummary .el-date-editor.el-input, .el-date-editor.el-input__inner{
+    width: 134px;
+}
+.ITPM  .el-table th{
+ height: 30px;
+}
+#varin .el-select ,#fenxi .el-select,#performance .el-select{
+  width: 100px;
+}
+#fenxi .el-radio-button--mini .el-radio-button__inner{
+  padding: 7px 7px;
+}
+#performance .el-radio-button--mini .el-radio-button__inner{
+  padding: 7px 7px;
+}
+#performance .el-tabs__content{
+  padding-bottom: 100px;
+}
+#fundMoney .el-dialog{
+  width: 800px;
+}
+#fundMoney .echarts{
+  width: 750px;
+}
+#fundMoney .searchParam .el-input__inner,#detailfund .searchParam .el-input__inner{
+  height: 30px!important;
+  line-height: 30px!important;
+}
+
+#fundMoney .el-input__icon,#detailfund .el-input__icon{
+  line-height: 26px;
+}
+#fundMoney .el-dialog__body{
+  padding: 5px 15px 20px;
+}
+#historyComment .el-input.is-active .el-input__inner, .el-input__inner:focus {
+    border-color: #dcdfe6;
+    outline: none;
+}
+#historyComment .el-input__inner:hover {
+  border-color: #dcdfe6;
+}
+#historyComment .el-textarea__inner:focus {
+    outline: none;
+    border-color: #dcdfe6;
+}
+#historyComment .el-textarea__inner:hover{
+  border-color: #dcdfe6;
+}
+#whitelist em, #addWhite em{
+
+    font-style: normal;
+    height: 30px;
+    line-height: 30px;
+
+}
+#whitelist .el-input ,#addWhite .el-input{
+  width: 150px;
+}
+#whitelist .el-button, #addWhite .el-button{
+  padding: 9px 20px;
+}
+.el-dialog__body {
+  padding: 21px 15px;
+}
+.el-dialog__header {
+  padding: 10px 20px 0px;
+}
+#productview .el-button{
+  padding: 9px 20px;
+}
+.el-submenu__title i.fa{
+  color: #fff;
+}
+#Datahome .el-scrollbar__wrap {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 100%;
+}
+#creatingMainview .el-table td {
+  height: 25px;
+  line-height: 25px;
+}
+#detailData .el-table .warning-row ,
+#tableData .el-table .warning-row,#sheetDio .el-table .warning-row ,
+#datingDio .el-table .warning-row,
+#creatingMainview .el-table .warning-row,
+#marsMAp .el-table .warning-row
+#commentPio  .el-table .warning-row,
+#whiteName .el-table .warning-row,
+#finalcel .el-table .warning-row,
+#marshome .el-table .warning-row ,
+#manage_warp .el-table .warning-row,
+#mddimain .el-table .warning-row,
+#deepcomment .el-table .warning-row,
+#dataManage .el-table .warning-row ,
+#applyComment .el-table .warning-row ,
+#userNew .el-table .warning-row,
+ #roleNew .el-table .warning-row,
+ #acountNew .el-table .warning-row,
+ #groupacountNew .el-table .warning-row,
+ #dataMainNew .el-table .warning-row
+ #FinancialData  .el-table .warning-row,
+ #bondFund_wrap .el-table .warning-row,
+ #industryWrap .el-table .warning-row,
+ #newssa  .el-table .warning-row,
+ #stockFund_wrap .el-table .warning-row{
+  background: #f3f9ff;
+}
+
+#detailData .radiolabels .el-radio__label{
+  font-size: 12px;
+}
+/* #detailData .el-table .success-row {
+  background: #f0f9eb;
+} */
+.secondMenu{
+  border-bottom:1px solid #eee;
+}
+.secondMenu .el-tabs__nav-wrap::after{
+  height: 0;
+}
+.secondMenu .el-tabs__nav-wrap{
+  padding-left:9.5%;
+}
+#framedetail .el-checkbox__label{
+  font-size: 13px;
+}
+#framedetail .el-table td{
+  padding: 4px!important;
+}
+#framedetail  .el-input__icon{
+  line-height: 30px;
+}
+#framedetail  .el-input__inner {
+  height: 28px!important;
+  line-height: 28px!important;
+  font-size: 12px!important;
+}
+#tableData .el-table td{
+  border-bottom: 1px solid transparent!important;
+}
+#newhome .el-header{
+  padding: 0;
+}
+#creatingMainview .el-table th ,
+#marsMAp .el-table th,
+ #commentPio .el-table th ,
+ #finalcel .el-table th,
+ #whiteName .el-table th,
+ #marshome .el-table th,
+ #manage_warp .el-table th,
+ #mddimain .el-table th,
+ #deepcomment  .el-table th ,
+ #dataManage .el-table th,
+ #applyComment .el-table th,
+ #userNew .el-table th,
+ #roleNew .el-table th,
+ #acountNew .el-table th,
+ #groupacountNew .el-table th,
+ #dataMainNew .el-table th,
+ #FinancialData  .el-table th,
+ #bondFund_wrap  .el-table th,
+ #industryWrap  .el-table th,
+ #newssa .el-table th,
+ #stockFund_wrap   .el-table th,
+ #mycommentone .el-table th{
+  background-color: #DAEBFB!important;
+  color: #404141;
+  font-size: 14px;
+  letter-spacing: 0.27px;
+}
+#newssa .el-table__body tr.current-row>td{
+ background-color: #cee6fd!important;
+}
+#abscenternew  .el-scrollbar__wrap{
+
+    overflow-x: hidden;
+   }
+#comment_warp .left_container .header ,#manage_warp  .left_container .header , #dataManage .left_container .header {
+  padding: 0;
+  height: 35px;
+  width: 100%;
+  line-height: 35px;
+  background: #DAEBFB;
+  padding-left: 10px;
+  box-sizing: border-box;
+  color: #404141;
+  font-size: 14px;
+  font-weight: bold;
+}
+#acmoutManageSys .left_container .header {
+  padding: 0;
+  height: 35px;
+  width: 100%;
+  line-height: 35px;
+  background: #DAEBFB;
+  padding-left: 10px;
+  box-sizing: border-box;
+  color: #404141;
+  font-size: 14px;
+  font-weight: bold;
+}
+#dataManageSys .left_container .header {
+  padding: 0;
+  height: 35px;
+  width: 100%;
+  line-height: 35px;
+  background: #DAEBFB;
+  padding-left: 10px;
+  box-sizing: border-box;
+  color: #404141;
+  font-size: 14px;
+  font-weight: bold;
+}
+#industryWrap .left_container .header {
+  padding: 0;
+  height: 35px;
+  width: 100%;
+  line-height: 35px;
+  background: #DAEBFB;
+  padding-left: 10px;
+  box-sizing: border-box;
+  color: #404141;
+  font-size: 14px;
+  font-weight: bold;
+}
+#FinancialData .left_container .header {
+  padding: 0;
+  height: 35px;
+  width: 100%;
+  line-height: 35px;
+  background: #DAEBFB;
+  padding-left: 10px;
+  box-sizing: border-box;
+  color: #404141;
+  font-size: 14px;
+  font-weight: bold;
+}
+#piao_warp .left_container .header ,
+#manage_warp  .left_container .header ,
+#eftNew_warp .left_container .header,
+#comment_warpFund .left_container .header,
+#bondFund_wrap .left_container .header,
+#stockFund_wrap  .left_container .header{
+  padding: 0;
+  height: 35px;
+  width: 100%;
+  line-height: 35px;
+  background: #DAEBFB;
+  padding-left: 10px;
+  box-sizing: border-box;
+  color: #404141;
+  font-size: 14px;
+  font-weight: bold;
+}
+/* #comment_warp .el-tabs__header,#finalcel .el-tabs__header,#manage_warp .el-tabs__header{
+  width: 99.6%;
+} */
+/* #finalcel .el-tabs__header,#manage_warp .el-tabs__header{
+  width: 99.6%;
+} */
+#piao_warp .el-tabs__header,
+ #creatingMainview .typeChangebutton  .el-tabs__header ,
+ #eftNew_warp .left_container .el-tabs__header,
+ #bondFund_wrap .left_container .el-tabs__header,
+ #industryWrap .left_container .el-tabs__header,
+ #stockFund_wrap .left_container .el-tabs__header{
+  width: 99.6%;
+}
+
+#comment_warp .left_container .el-tabs__item,
+#finalcel  .left_container .el-tabs__item ,
+#manage_warp  .left_container .el-tabs__item,
+#eftNew_warp .left_container .el-tabs__item,
+#creatingMainview .typeChangebutton .el-tabs__item,
+#FinancialData .left_container .el-tabs__item,
+#bondFund_wrap .left_container .el-tabs__item,
+#industryWrap .left_container .el-tabs__item,
+#stockFund_wrap .left_container .el-tabs__item{
+  width: 99.6%;
+}
+
+#comment_warp .el-tabs__item,
+#finalcel .el-tabs__item ,
+#manage_warp .el-tabs__item,
+#dataManage .el-tabs__item,
+#creatingMainview .typeChangebutton .el-tabs__item,
+#FinancialData .left_container .el-tabs__item,
+#bondFund_wrap .left_container .el-tabs__item,
+#stockFund_wrap  .left_container .el-tabs__item{
+  height: 34px;
+  line-height: 34px;
+}
+#piao_warp .el-tabs__item,#finalcel .el-tabs__item ,#manage_warp .el-tabs__item{
+  height: 34px;
+  line-height: 34px;
+}
+#finalcel .el-form-item__content{
+  line-height:40px;
+  margin-left: 20px;
+}
+#finalcel .el-input__inner{
+  height: 30px!important;
+  line-height: 30px!important;
+  font-size: 12px!important;
+}
+#finalcel .el-input__suffix .el-input__icon{
+  line-height: 30px!important;
+}
+#finalcel .el-form-item{
+  margin-bottom: 10px;
+}
+#finalcel .left_container .el-tabs__item {
+  height: 30px;
+  line-height: 30px;
+}
+#finalcel  .left_container .el-tabs__header{
+  width: 99.6%;
+}
+#comment_warp  .left_container .el-tabs__header{
+  width: 99.6%;
+}
+#manage_warp  .left_container .el-tabs__header{
+  width: 99.6%;
+}
+#dataManage  .left_container .el-tabs__header{
+  width: 99.6%;
+}
+#comment_warpFund .left_container .el-tabs__header{
+  width: 99.6%;
+}
+#comment_warpFund .left_container .el-tabs__header{
+  width: 99.6%;
+}
+#dataManageSys .left_container .el-tabs__header{
+  width: 99.6%;
+}
+#acmoutManageSys .left_container .el-tabs__header{
+  width: 99.6%;
+}
+#FinancialData .left_container .el-tabs__header{
+  width: 99.6%;
+}
+#finalcel  .el-card__header{
+  background: #DAEBFB;
+  padding: 7px 0px;
+  text-indent: 10px;
+  color: #404141;
+  font-size: 14px;
+  font-weight: bold;
+}
+#finalcel .listbox .el-tabs__item{
+  font-size: 13px;
+}
+.noborder .el-table td{
+  border-bottom: 1px solid transparent;
+}
+#SYSNEWmain  .el-menu--horizontal{
+  border-bottom: none;
+}
+#SYSNEWmain .el-menu--horizontal>.el-menu-item{
+  height: 35px;
+  line-height: 35px;
+
+}
+#SYSNEWmain .el-menu--horizontal>.el-submenu .el-submenu__title{
+    height: 35px;
+    line-height: 35px;
+    border-bottom: 2px solid transparent;
+}
+#assetMainteanceID .el-table th{
+  background-color:#DAEBFB!important
+}
+#aaaddd .el-input__inner {
+  height: 26px!important;
+  line-height: 26px!important;
+  font-size: 12px!important;
+}
