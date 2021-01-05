@@ -59,7 +59,7 @@
     }
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "babel-polyfill": "^6.26.0",
     "echarts": "^4.2.0-rc.2",
     "element-tree-grid": "^0.1.3",
